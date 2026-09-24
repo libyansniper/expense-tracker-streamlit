@@ -48,3 +48,11 @@ if not df.empty:
         st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("💡 No expenses recorded yet. Use the sidebar menu to add your first expense!")
+    # Footer
+st.markdown("---")
+st.markdown(
+    "<div style='text-align: center; color: gray;'>"
+    "Developed with ❤️ by <b>Ali Albshti</b> (@libyansniper)"
+    "</div>", 
+    unsafe_allow_html=True
+)
