@@ -31,7 +31,7 @@ df = st.session_state.expenses
 
 if not df.empty:
     # Split the screen into two columns
-    col1, col2 = st.columns()
+    col1, col2 = st.columns(2)
 
     with col1:
         st.markdown("### 📋 Registered Expenses")
