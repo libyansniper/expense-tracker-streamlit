@@ -161,11 +161,16 @@ else:
     else:
         st.info("💡 No expenses recorded yet. Use the sidebar menu to add your first expense!")
 
-# 5. Footer
+# Footer
 st.markdown("---")
 st.markdown(
-    "<div style='text-align: center; color: gray;'>"
-    "Developed with ❤️ by <b>Ali Albshti</b> (@libyansniper)"
-    "</div>", 
+    """
+    <div style='text-align: center; padding: 12px; font-family: sans-serif; color: #888888; font-size: 14px;'>
+        Developed by <strong style='color: #4CAF50; font-size: 15px;'>Ali Albshti</strong> 
+        &nbsp;|&nbsp;
+        GitHub: <a href='https://github.com/libyansniper' target='_blank' style='color: #2196F3; text-decoration: none; font-weight: bold;'>@libyansniper</a>
+    </div>
+    """,
     unsafe_allow_html=True
 )
+
